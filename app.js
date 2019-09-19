@@ -4,6 +4,9 @@ const porHacer = require('./por-hacer/por-hacer');
 
 let comando = argv._[0];
 
+console.log(argv);
+console.log(false);
+
 switch (comando) {
     case 'crear':
         let tarea = porHacer.crear(argv.descripcion);
